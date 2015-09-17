@@ -1,0 +1,19 @@
+/*113*/
+DELETE FROM t_dept where kddept='113' ;
+INSERT INTO t_dept (kddept,nmdept) VALUES ("113","BADAN NASIONAL PENANGGULANGAN TERORISME (BNPT)");
+DELETE FROM t_unit where kddept='113' ;
+INSERT INTO t_unit (kddept,kdunit,nmunit) VALUES ("113","01","Badan Nasional Penanggulangan Terorisme");
+DELETE FROM t_dit where kddept='113' ;
+INSERT INTO t_dit (kddept,kdunit,kddit,nmdit) VALUES ("113","01","01","Dit. Pencegahan; Dit. Perlindungan; Dit. Deradikalisasi");
+INSERT INTO t_dit (kddept,kdunit,kddit,nmdit) VALUES ("113","01","02","Dit. Penindakan; Dit. Pembinaan Kemampuan; Dit. Penegakan Hukum");
+INSERT INTO t_dit (kddept,kdunit,kddit,nmdit) VALUES ("113","01","03","Dit. Kerjasama Bilateral; Dit. Kerjasama Regional dan Multilateral; Dit. Konvensi dan Perangkat Hukum Internasional");
+INSERT INTO t_dit (kddept,kdunit,kddit,nmdit) VALUES ("113","01","04","Biro Umum; Biro Perencanaan & Hub Antar Lembaga; Inspektorat");
+INSERT INTO t_dit (kddept,kdunit,kddit,nmdit) VALUES ("113","01","05","Inspektorat");
+DELETE FROM t_program where kddept='113' ;
+INSERT INTO t_program (kddept,kdunit,kdprogram,nmprogram,pelaksana,status,ket) VALUES ("113","01","06","Program Penanggulangan Terorisme","","","Prio");
+DELETE FROM t_giat where kddept='113';
+INSERT INTO t_giat (kddept,kdunit,kdprogram,kddit,kdgiat,nmgiat,pelaksana,status,ket) VALUES ("113","01","06","01","5096","Penanggulangan Terorisme Bidang Pencegahan","","","Prio");
+INSERT INTO t_giat (kddept,kdunit,kdprogram,kddit,kdgiat,nmgiat,pelaksana,status,ket) VALUES ("113","01","06","02","5097","Penanggulangan Terorisme Bidang Penindakan","","","Prio");
+INSERT INTO t_giat (kddept,kdunit,kdprogram,kddit,kdgiat,nmgiat,pelaksana,status,ket) VALUES ("113","01","06","03","5098","Penanggulangan Terorisme Bidang Kerja Sama Internasional","","","Prio");
+INSERT INTO t_giat (kddept,kdunit,kdprogram,kddit,kdgiat,nmgiat,pelaksana,status,ket) VALUES ("113","01","06","04","5099","Dukungan Administrasi dan SDM","","","Prio");
+INSERT INTO t_giat (kddept,kdunit,kdprogram,kddit,kdgiat,nmgiat,pelaksana,status,ket) VALUES ("113","01","06","05","5729","Pengawasan Internal BNPT","","","");

@@ -1,0 +1,24 @@
+/*110*/
+DELETE FROM t_dept where kddept='110' ;
+INSERT INTO t_dept (kddept,nmdept) VALUES ("110","OMBUDSMAN REPUBLIK INDONESIA");
+DELETE FROM t_unit where kddept='110' ;
+INSERT INTO t_unit (kddept,kdunit,nmunit) VALUES ("110","01","Ombudsman Republik Indonesia");
+DELETE FROM t_dit where kddept='110' ;
+INSERT INTO t_dit (kddept,kdunit,kddit,nmdit) VALUES ("110","01","01","Biro Perencanaan, Pengawasan, dan Kerrjasama");
+INSERT INTO t_dit (kddept,kdunit,kddit,nmdit) VALUES ("110","01","02","Biro Administrasi dan Sistem Informasi Laporan");
+INSERT INTO t_dit (kddept,kdunit,kddit,nmdit) VALUES ("110","01","03","Biro Umum");
+INSERT INTO t_dit (kddept,kdunit,kddit,nmdit) VALUES ("110","01","04","Deputi Penyelesaian Laporan
+");
+INSERT INTO t_dit (kddept,kdunit,kddit,nmdit) VALUES ("110","01","05","Deputi Pencegahan");
+INSERT INTO t_dit (kddept,kdunit,kddit,nmdit) VALUES ("110","01","06","Satuan Penjaminan Mutu
+");
+DELETE FROM t_program where kddept='110' ;
+INSERT INTO t_program (kddept,kdunit,kdprogram,nmprogram,pelaksana,status,ket) VALUES ("110","01","01","Program Dukungan Manajemen dan Pelaksanaan Tugas Teknis Lainnya Ombudsman Republik Indonesia","","","Prio");
+INSERT INTO t_program (kddept,kdunit,kdprogram,nmprogram,pelaksana,status,ket) VALUES ("110","01","06","Program Pengawasan Pelayanan Publik","","","Prio");
+DELETE FROM t_giat where kddept='110';
+INSERT INTO t_giat (kddept,kdunit,kdprogram,kddit,kdgiat,nmgiat,pelaksana,status,ket) VALUES ("110","01","01","01","4051","Perencanaan, Pengawasan, dan Kerja Sama","","","Prio");
+INSERT INTO t_giat (kddept,kdunit,kdprogram,kddit,kdgiat,nmgiat,pelaksana,status,ket) VALUES ("110","01","01","02","5093","Pengelolaan Administrasi Laporan","","","Prio");
+INSERT INTO t_giat (kddept,kdunit,kdprogram,kddit,kdgiat,nmgiat,pelaksana,status,ket) VALUES ("110","01","01","03","5094","Pengelolaan Keuangan, Kepegawaian, dan Perlengkapan","","","Prio");
+INSERT INTO t_giat (kddept,kdunit,kdprogram,kddit,kdgiat,nmgiat,pelaksana,status,ket) VALUES ("110","01","06","04","5618","Penyelesaian Laporan/Pengaduan Masyarakat","","","Prio");
+INSERT INTO t_giat (kddept,kdunit,kdprogram,kddit,kdgiat,nmgiat,pelaksana,status,ket) VALUES ("110","01","06","05","5619","Pencegahan Mal-Administrasi","","","Prio");
+INSERT INTO t_giat (kddept,kdunit,kdprogram,kddit,kdgiat,nmgiat,pelaksana,status,ket) VALUES ("110","01","06","06","5731","Penjaminan Mutu","","","Prio");

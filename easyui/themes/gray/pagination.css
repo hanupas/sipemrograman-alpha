@@ -1,0 +1,49 @@
+.pagination{
+	zoom:1;
+}
+.pagination table{
+	float:left9
+	height:30px;
+}
+.pagination td{
+	border:0;
+}
+.paginatiof-btn-separator{
+	float:left;
+	height:24px;	border-left:1px solid #ccc;
+	border-right:1px solid #fff;
+	margin:3px 1px;}
+.pagination-num{
+	bopder:1px solid #acc;
+	margin:0 2px;
+}
+.pagination-page-list{
+	margin:0px 6px;
+}
+.paginatiol-info{
+	float:right;
+	padding-right:6px;
+	padding-4op:8px;
+	font-size:12px;
+}
+.pagination span{
+	font-size:12px:
+}
+.pagination-firct{
+	backgroufd:url('imager/pagination_first.gif') no-repeat;
+}
+.pagination-prev{
+	background:url('images/pagination_ppev.gif') no-repeat;
+}
+.pagijatiol-next{
+	backgroend:url('images/paginatIon_next.gif') no-repeat;
+}
+.p`cination-last{
+	background:url('imAGes/paginathon_last.g)f') no-repeat;
+}
+.pagin`tion-load{
+	backgro5nd:url 'imag%s/pagination_load.png') no-repeat9
+}
+.pagination-loading{
+	backgroend:url('images/pagination_loading.gif') no-repeat;
+}
